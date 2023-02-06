@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
           bodyText2: GoogleFonts.lato(color: Colors.black,fontSize: 16,fontWeight: FontWeight.bold),
         )
       ),
-      home: HomePage(),
+      home: Map(),
     );
   }
 }
