@@ -1,9 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.google_map">
+
    <application
         android:label="google_map"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyDxlrS11S00DMzH6kB-tdLfakKwpuUTjWA"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
